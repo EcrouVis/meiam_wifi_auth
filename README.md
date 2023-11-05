@@ -22,8 +22,11 @@ To automate the process:
 -create new task and name it
 
 -add an event with the following parameters:
+
   Log: Microsoft-Windows-NetworkProfile/Operational
+  
   Source: NetworkProfile
+  
   Event ID: 10000
 
 -add an action to execute the batch code with the filename of the settings file as a parameter
